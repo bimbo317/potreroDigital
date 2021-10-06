@@ -1,0 +1,58 @@
+/*
+selector(etiqueta, .clase, #id){
+    propiedad:valor;
+*/
+
+head{
+    margin: 0;
+}
+body{
+    color: rgb(153, 153, 153); /*define el color para todos los elementos del body*/
+    margin: 0; /*Quita el margen 0*/
+    font-family: 'Montserrat', sans-serif; /* Defino la fuente*/
+    max-width: 1650px; /*Defino el ancho del body*/
+    background-color: rgb(239, 245, 245);
+}
+
+.article-body{ /*Defino que el contenido del cuerpo del articulo este en fila*/
+    display: inline-flex;
+    flex-direction: row; 
+}
+.article-header{
+    max-width: 850px; /*Defino el ancho de la cabecera de mi articulo*/
+}
+.article-headline{
+    color: black;
+    font-weight: 700; /*Defino ancho de la fuente*/
+    font-size: 39px; /*Defino tamaño de la fuente*/
+    margin-top: 0; /*Defino margen superior*/
+    margin-bottom: 30px; /*Defino margen inferior*/
+}
+.article-subheadline{
+    font-style: italic; 
+    font-weight: 500;
+    max-width: 800px;
+    line-height: 2.35rem; /*Defino distancia entre lineas*/
+    margin-bottom: 30px;
+}
+.article-paragraph{
+    color: rgb(119, 119, 119);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 2.3rem;
+}
+.visual_image{
+    max-width: 800px;
+}
+
+.article-bottom{
+    margin-top: 40px;
+    display: block; /*Defino que la seccion de nombres ocupe todo el ancho de su padre*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    line-height: 2.3rem;
+    max-width: 1625px;
+}
+
